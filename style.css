@@ -1,3 +1,37 @@
+/** {
+  outline: 1px solid blue;
+}*/
+
 body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: ;
+}
+
+.vert {
+    background-color: ;
+    height: 100%;
+}
+
+.unsplash {
+  background: url(img/unsplashcinema.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px 4px black;
+}
+
+.jumbotron {
+  color: #efefef;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.no-flex {
+  flex: 0;
+  padding-top: 30px;
+  padding-bottom: 105px;
 }
